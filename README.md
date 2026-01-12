@@ -1,8 +1,9 @@
 # Successor-Model-Flow-Matching
 This repo implements TD flow algorithms on a demonstrative continuous state, continuous action domain.
 
-Currently, the code implements MC-CFM for a continuous gridworld environment. In the upcoming commits, we will add alternative TD flow algorithms as proposed in _Farebrother, J., Pirotta, M., Tirinzoni, A., Munos, R., Lazaric, A., & Touati, A. (2025). Temporal Difference Flows. arXiv preprint arXiv:2503.09817._
+The repo containts implementations of various TD flow algorithms proposed in _Farebrother, J., Pirotta, M., Tirinzoni, A., Munos, R., Lazaric, A., & Touati, A. (2025). Temporal Difference Flows. arXiv preprint arXiv:2503.09817._
 
+We will add the diffusion-based successor modeling as next step.
 
 ## How to run the code?
 1. Create a virtual environment and install pytorch, numpy, matplotlib, and tqdm.
